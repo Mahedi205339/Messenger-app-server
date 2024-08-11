@@ -2,7 +2,7 @@ import expressAsyncHandler from "express-async-handler";
 import Chat from "../../models/messages/Chat.js";
 
 export const createChat = expressAsyncHandler(async (req, res) => {
-
+//adding chat schema :-
 
   try {
     const newChat = new Chat({
